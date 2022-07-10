@@ -89,6 +89,11 @@ img {
     
 }
 
+.button-vaciar-carrito {
+    color: #000;
+    font-size: 1.4rem;
+}
+
 /* Main */
 main h1 {
     margin-top: 5rem;
