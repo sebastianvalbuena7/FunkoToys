@@ -40,14 +40,27 @@ img {
     justify-content: space-between;
 }
 
+.logo-header {
+    margin-left: 2rem;
+}
+
 .menu-texto li a{
     color: #fff;
     font-size: 2rem;
     font-weight: bold;
 }
 
+.menu-texto li a:hover {
+    color: #aaa;
+}
+
 .menu-texto {
     display: flex;
+    margin-top: 2.5rem;
+}
+
+.text-nav {
+    margin-left: 2rem;
 }
 
 
