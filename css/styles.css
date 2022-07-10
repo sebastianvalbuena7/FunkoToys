@@ -27,12 +27,29 @@ img {
 /* Header */
 .header {
     background-color: #000;
+    height: 8rem;
 }
 
 .img-carrito {
     height: 4rem;
     width: 4rem;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-texto li a{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-texto {
+    display: flex;
+}
+
 
 /* Main */
 main h1 {
