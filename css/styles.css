@@ -33,15 +33,21 @@ img {
 .img-carrito {
     height: 4rem;
     width: 4rem;
+    margin-top: 1.8rem;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
-.logo-header {
-    margin-left: 2rem;
+.submenu {
+    display: grid;
+}
+
+.submenu #carrito {
+    display: none;
 }
 
 .menu-texto li a{
@@ -59,10 +65,29 @@ img {
     margin-top: 2.5rem;
 }
 
+.submenu:hover #carrito {
+    display: block;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: rgb(160, 160, 160);
+    padding: 2rem;
+    max-width: 30rem;
+    max-height: 40rem;
+    margin-top: 1.5rem;
+}
+
 .text-nav {
     margin-left: 2rem;
 }
 
+.t-carrito {
+    
+}
+
+.tr-text {
+    
+}
 
 /* Main */
 main h1 {
